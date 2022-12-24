@@ -47,9 +47,10 @@ function ValidatePass() {
 //checks if the values is correct; if true redirects the user to the main site view But if false it requests for the right details
 function OnclickLogin() {
   if (Password.value == PasswordConf.value && Password.value !== "") {
-    window.location.href = "http://127.0.0.1:5500/gift.html";
+    window.location.href = "../gift.html";
     alert("Succesfully claimed")
   } else {
     alert("wrong details!! fix the error message to proceed");
   }
 }
+
